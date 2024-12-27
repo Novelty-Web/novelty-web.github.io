@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novelty Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo">
+            <img src="logo1.jpeg" alt="Novelty Web Logo" />
+          </div>
+          <ul class="navbar-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="hero-section" class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Let's <span id="typed-text" class="changing-text"></span>
+          </h1>
+          <p class="hero-subtitle">
+            Empowering businesses with innovative web design, software development, and digital marketing solutions tailored for success.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn-primary">Get Started</button>
+            <button class="btn-secondary">Learn More</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="hero2.png" alt="Tech Illustration" />
+        </div>
+      </section>
+
+      <section id="services">
+        <h1 class="services-heading">Our Services</h1>
+        <div class="services-container">
+            <!-- Service Items -->
+            <div class="service-item">
+                <img src="web1.jpeg" alt="Web Designing">
+                <div class="overlay">
+                    <h1>Web Designing</h1>
+                    <p>Build stunning, responsive websites tailored for your business.</p>
+                    <a href="/web-designing" class="explore-arrow">→ Explore</a>
+                </div>
+            </div>
+    
+            <div class="service-item">
+                <img src="graphic.jpg" alt="Logo and Branding">
+                <div class="overlay">
+                    <h1>Logo & Branding</h1>
+                    <p>Unique brand identity creation for memorable impressions.</p>
+                    <a href="/logo-branding" class="explore-arrow">→ Explore</a>
+                </div>
+            </div>
+    
+            <div class="service-item">
+                <img src="tech3.jpg" alt="Growth and Marketing">
+                <div class="overlay">
+                    <h1>Growth & Marketing</h1>
+                    <p>Innovative marketing solutions to grow your business.</p>
+                    <a href="/marketing" class="explore-arrow">→ Explore</a>
+                </div>
+            </div>
+    
+            <div class="service-item">
+                <img src="soft.jpg" alt="Software Development">
+                <div class="overlay">
+                    <h1>Software Development</h1>
+                    <p>Custom software tailored to meet your business goals.</p>
+                    <a href="/software-dev" class="explore-arrow">→ Explore</a>
+                </div>
+            </div>
+    
+            <div class="service-item">
+                <img src="app1.jpeg" alt="App Development">
+                <div class="overlay">
+                    <h1>App Development</h1>
+                    <p>Interactive and scalable apps for iOS, Android, and web.</p>
+                    <a href="/app-dev" class="explore-arrow">→ Explore</a>
+                </div>
+            </div>
+    
+            <div class="service-item">
+                <img src="hero.jpg" alt="Hosting and Maintenance">
+                <div class="overlay">
+                    <h1>Hosting & Maintenance</h1>
+                    <p>Reliable hosting and ongoing support for seamless performance.</p>
+                    <a href="/hosting" class="explore-arrow">→ Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hero2">
+        <!-- Video Background -->
+        <div class="video-overlay"></div>
+        <video autoplay muted loop id="hero-video">
+            <source src="hero2.mp4"video>
+            Your browser does not support the video tag.
+        </video>
+        
+        <!-- Content -->
+        <div class="hero-content2">
+            <h1>Premier London-Based Creative Agency</h1>
+            <h1>Let's Build Something Amazing Together</h1>
+            <p>We turn your visions into reality with cutting-edge solutions that make an impact.</p>
+            <a href="#contact" class="hero-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section class="about-us-section">
+        <div class="about-us-left">
+            <h1>About Us</h1>
+            <p>
+                At Novelty Web, we’re more than just a digital agency—we’re dream weavers, creators, and problem solvers. 
+                Our mission is to turn your vision into a stunning online experience that stands out in a crowded digital world.
+            </p>
+            <p>
+                With a blend of cutting-edge technology, innovative design, and relentless creativity, we help businesses transform 
+                their web presence into a powerful tool for growth and engagement.
+            </p>
+            <p>
+                From crafting bespoke designs to implementing robust functionalities, we are committed to delivering results that exceed 
+                expectations. Our London-based team specializes in making brands memorable by combining artistry with functionality. 
+                Let’s build something extraordinary together.
+            </p>
+        </div>
+        <div class="about-us-right">
+            <img src="tech2.jpg" alt="About Us - Novelty Web">
+        </div>
+    </section>
+
+    <section class="our-work-section">
+        <h1 class="our-work-heading">Our Work</h1>
+        <p class="our-work-tagline">A showcase of innovation, creativity, and excellence in action.</p>
+        <div class="work-grid">
+            <div class="work-item">
+                <a href="https://example1.com" target="_blank">
+                    <img src="zilla.png" alt="Project 1">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example2.com" target="_blank">
+                    <img src="syc.png" alt="Project 2">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example3.com" target="_blank">
+                    <img src="jaf.png" alt="Project 3">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example4.com" target="_blank">
+                    <img src="tech.png" alt="Project 4">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example5.com" target="_blank">
+                    <img src="sbh.png" alt="Project 5">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example6.com" target="_blank">
+                    <img src="ree.png" alt="Project 6">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example7.com" target="_blank">
+                    <img src="emar.png" alt="Project 7">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example8.com" target="_blank">
+                    <img src="tech.jpg" alt="Project 8">
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example9.com" target="_blank">
+                    <img src="syc.png" alt="Project 9">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-heading-container">
+            <h1 class="contact-heading">Contact Us</h1>
+            <p class="contact-subheading">Let’s get started on your dream project. We're here to help you every step of the way.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="logo">
+                    <img src="logo1.jpeg" alt="Novelty Web Logo" />
+                </div>
+                <br>
+                <p><strong>Address:</strong> 123 Web Lane, London, UK</p>
+                <br>
+                <p><strong>Email:</strong> <a href="mailto:info@noveltyweb.com">info@noveltyweb.com</a></p>
+                <br>
+                <p><strong>Contact Number:</strong> <a href="tel:+441234567890">+44 123 456 7890</a></p>
+                <div class="social-links">
+                    <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/441234567890" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">"Empowering your vision, one pixel at a time. Let’s create something extraordinary together."</p>
+            <p class="footer-copyright">
+                &copy; 2024 Novelty Web. All rights reserved. | Designed with ❤️ in London.
+            </p>
+        </div>
+    </footer>
+    
+    
+
+      
+    
+
+
+      <script>
+        const words = ["Grow", "Innovate", "Thrive", "Scale", "Transform"];
+        let i = 0;
+        let j = 0;
+        let currentWord = "";
+        let isDeleting = false;
+        const speed = 100;
+      
+        function typeEffect() {
+          if (!isDeleting && j < words[i].length) {
+            currentWord += words[i][j];
+            j++;
+          } else if (isDeleting && j > 0) {
+            currentWord = currentWord.slice(0, -1);
+            j--;
+          }
+      
+          document.getElementById("typed-text").textContent = currentWord;
+      
+          if (!isDeleting && j === words[i].length) {
+            setTimeout(() => (isDeleting = true), 1000); // Pause at the end of the word
+          } else if (isDeleting && j === 0) {
+            isDeleting = false;
+            i = (i + 1) % words.length; // Move to the next word
+          }
+      
+          setTimeout(typeEffect, isDeleting ? speed / 2 : speed);
+        }
+      
+        typeEffect();
+
+        
+      </script>
+      
+
+</body>
+
+</html>
+      
+      
